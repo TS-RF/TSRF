@@ -1,23 +1,23 @@
 @echo off
 chcp 65001 >nul
-REM 使用conda环境运行交互式SHAP分析工具
-REM 解决 "No module named 'shap'" 问题
+REM Run interactive SHAP analysis tool using conda environment
+REM Solves "No module named 'shap'" issue
 
 echo ============================================================
-echo 交互式SHAP分析工具
+echo Interactive SHAP Analysis Tool
 echo ============================================================
 echo.
-echo 使用conda环境运行...
+echo Running with conda environment...
 echo.
 
-REM 切换到脚本目录
+REM Switch to script directory
 cd /d "%~dp0"
 
-REM 使用conda环境运行Python脚本
+REM Run Python script using conda environment
 D:\Anaconda\Scripts\conda.exe run -p "d:\Pycharm_Project\Pytorch\NSFC\Data-test-3\.conda" --no-capture-output python interactive_shap.py
 
 echo.
 echo ============================================================
-echo 完成！
+echo Done!
 echo ============================================================
 pause
