@@ -204,7 +204,7 @@ P07: PistWallHeatFlow      P14: Out-Tem
 
 ## Citation
 
-If you use this code in your research, please cite our paper:
+If you use this code in your research, please read our paper:
 
 ```bibtex
 @article{luo2025thermodynamic,
