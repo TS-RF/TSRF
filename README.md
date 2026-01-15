@@ -1,4 +1,4 @@
-# ThermoRF - Thermodynamic Simulation-Assisted Random Forest
+# TSRF - Thermodynamic Simulation-Assisted Random Forest
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -111,16 +111,6 @@ Feature pairs: P03-P04,P05-P06   # Use P01-P14 codes
 - **Interactive Mode**: User selects fault types, samples, and feature pairs
 - **Batch Processing**: Multi-class analysis support
 
-### Feature Encoding
-
-All plots use **P01-P14** standardized codes:
-
-- P01: Cylinder-Pre
-- P02: Cylinder-Tem
-- P03: BlowBy
-- P04: HeadWallHeatFlow
-- ... (14 features total)
-
 ---
 
 ## Advanced Usage
@@ -216,7 +206,7 @@ P07: PistWallHeatFlow      P14: Out-Tem
 
 ## Citation
 
-If you use this code in your research, please read our paper:
+ If you find this work useful for your research, please consider reading the following paper 😊:
 
 ```bibtex
 @article{luo2025thermodynamic,
